@@ -4,7 +4,12 @@
 
 // Code readability should be high ; 
 
-
-
  console.log(typeof undefined) ; 
  console.log(typeof null) ; 
+
+//  Primitive Type -->(Call by Value)
+// String , Number, Boolean , Null  , Undefined  ,Symbol , BigInt ; 
+
+// Non Primitive Type(Call by Reference) --->
+// Array , Objects,  Function ; 
+
