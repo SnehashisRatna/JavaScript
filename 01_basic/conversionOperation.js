@@ -1,12 +1,12 @@
-let score = "33" ; 
+// let score = "33" ; 
 
-console.log(score) ; 
-console.log(typeof(score)) ;
+// console.log(score) ; 
+// console.log(typeof(score)) ;
 
 
- let value = Number(score);
- console.log(value)
-console.log(typeof(value)) ;
+//  let value = Number(score);
+//  console.log(value)
+// console.log(typeof(value)) ;
 
 // "33" =>  33
 // "33abc" = >NaN -> Not a Number ; 
@@ -17,3 +17,19 @@ console.log(typeof(value)) ;
 //"" => false ; 
 //"Sneha" => true  ;
 
+
+//------------------*---------------*-------Operation-------------*-----------------*--------------------
+
+let value = 2 ;
+
+let negValue = -value ; 
+console.log(negValue) ;
+
+
+console.log("1" +2) ; 
+console.log(1+"2") ; 
+console.log("1" +2+2) ; 
+console.log(1 +"2"+ 2) ; 
+console.log(1 +2+ "2") ; 
+console.log(+true) ;
+console.log(+"" ) ;
