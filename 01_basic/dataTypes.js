@@ -32,4 +32,26 @@ let func  = function(){
 }
 
 
+// Stack Vs Heap ; 
 
+// In stack it gives us the copied value of the original value ; 
+let name  = "Sneha" ; 
+let varName = name  ; 
+// console.log(varName) ;
+
+varName  ="Ayus" ; 
+console.log(name) ; 
+console.log(varName) ; 
+
+
+// But in heap it gives the reference of that data  ;
+let user = {
+    name:"Sneha"  ,
+    age:24
+}
+
+let userTwo = user ; 
+
+// console.log(userTwo) ;
+userTwo.name = "Ayus" ; 
+console.table([user , userTwo]) ;
