@@ -10,6 +10,26 @@
 //  Primitive Type -->(Call by Value)
 // String , Number, Boolean , Null  , Undefined  ,Symbol , BigInt ; 
 
+let bigNub = 1223456567845673n ;
+console.log(typeof bigNub) ;
+
 // Non Primitive Type(Call by Reference) --->
-// Array , Objects,  Function ; 
+// (1)Array
+ const heros = ["Tony" , "Dormamu" , "Kalia"]  ; 
+console.log(typeof heros) ;
+// Objects 
+
+let myObj = {
+    name: "Sneha" ,
+    age : 23 
+}
+console.log(myObj) ; 
+console.log(typeof myObj) ; 
+// Function ; 
+
+let func  = function(){
+    console.log("Hello Wolrd");
+}
+
+
 
