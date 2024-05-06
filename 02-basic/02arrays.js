@@ -28,8 +28,8 @@ console.log(Array.isArray("Snehashis")) ;
 
 // from -> it will ctreat array from anything ; 
 console.log(Array.from("Snehashis")) ;   
-// interesting  : 
 
+// interesting  : ???imp???
 console.log(Array.from({name:"Sneha"})) ;   // will throw a empty array  , need to spesify about keys and values ; 
 
 // of ->Returns a new array from a set of elements.
