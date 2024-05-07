@@ -26,7 +26,7 @@ console.log(cool.length) ;
 
 console.log(Array.isArray("Snehashis")) ;   
 
-// from -> it will ctreat array from anything ; 
+// from -> it will creat array from anything ; 
 console.log(Array.from("Snehashis")) ;   
 
 // interesting  : ???imp???
