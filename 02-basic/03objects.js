@@ -62,3 +62,7 @@ console.log(regularUser.fullName.userFullName.lastName) ;
     //Speard ->>> 
     const newObject = {...obj1, ...obj2} ; 
     console.log(newObject) ;
+
+    console.log(Object.keys(newObject)) ; // will give the keys of the object
+    console.log(Object.values(newObject)) ;// will give the value  ; 
+    console.log(Object.entries(newObject)) ; // convert the key value pair into array  ;
