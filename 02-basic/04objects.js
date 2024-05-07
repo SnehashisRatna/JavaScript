@@ -7,6 +7,7 @@ const course = {
 }
 
 // destructuring :->>> 
+    // const  {userName } = course ; 
 const  {userName :user} = course ; 
 
      // console.log(userName) ;
