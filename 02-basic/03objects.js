@@ -47,3 +47,7 @@ console.log(regularUser.fullName) ;
 console.log(regularUser.fullName.userFullName) ;
 console.log(regularUser.fullName.userFullName.firstName) ;
 console.log(regularUser.fullName.userFullName.lastName) ;
+
+// Optional chaining 
+// '?' -> it will protect your chaining , agra  koi value nhi hai toh ye  phir bhi print karega  ; 
+
