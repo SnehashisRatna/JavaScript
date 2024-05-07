@@ -51,3 +51,14 @@ console.log(regularUser.fullName.userFullName.lastName) ;
 // Optional chaining 
 // '?' -> it will protect your chaining , agra  koi value nhi hai toh ye  phir bhi print karega  ; 
 
+//  Combining ; 
+    const obj1 ={ 1: "a" , 2:"b"} ; 
+    const obj2  ={3:"c" , 4:"d"} ; 
+
+    //  Assigning
+    const returnObj = Object.assign({},obj1 , obj2) ; 
+    console.log(returnObj)
+
+    //Speard ->>> 
+    const newObject = {...obj1, ...obj2} ; 
+    console.log(newObject) ;
