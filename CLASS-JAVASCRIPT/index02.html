@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="fsjs" id="batch2"><span>Lorem, ipsum dolor.</span> Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+    <p id="gender"></p>
+    <ul>
+        <li class="numb">one</li>
+        <li class="numb">Two</li>
+        <li class="numb">Three</li>
+    </ul>
+
+
+    <button onclick="maths()" id="btn">Click Me</button>
+    <p id="js"></p>
+    <script>
+        // let val = document.getElementById("batch2");
+        // console.log(val);
+        // console.log(val.innerHTML);
+        // console.log(val.innerText);
+        // // console.log(val.innerText);
+
+
+        // let num = document.getElementsByClassName("numb");
+        // console.log(num);
+        // console.log(num[0].innerHTML);
+        // console.log(num[1].innerHTML);
+        // console.log(num[2].innerHTML);
+
+        // num[1].innerHTML = "Snehashis"; 
+        // console.log(num[1].innerHTML);
+
+        // num[2].innerText =   "<h1>Hello Sir</h1>";
+        // console.log(num[2].innerText);
+
+
+        // //  QuerySelector 
+
+        // let cal = document.querySelector(".fsjs").innerHTML;
+        // console.log(cal);
+        // let cal2 = document.querySelector(".fsjs").innerText;
+        // console.log(cal2);
+        // let cal3 = document.querySelector("#batch2").innerText;
+        // console.log(cal3);
+          
+
+        // setTimeout(() => {
+        //     alert("Hello World:")
+        // }, 2000);
+
+        // let val = confirm("Are you a male ? ");
+        // if(val){
+        //    document.getElementById("gender").innerHTML = "The coustmer is male ."
+        // }else{
+        //     document.getElementById("gender").innerHTML = "The coustmer is female ."
+        // }
+
+
+
+        // let mathCheck = prompt("Do this one and win : 2*2+2%2-2/2 = ? ");
+
+        // if (mathCheck == 3) {
+
+        //     document.getElementById("gender").innerHTML = "Success";
+        // }
+        // else {
+        //     document.getElementById("gender").innerHTML = "fail";
+        // }
+
+        // let arrName = ["sneha" , "shubhu" , "shubham" , "tanmaya" , "Akash" ]
+        // for(let i = 0 ;i <= 5; i++){
+        //     let para = document.createElement("p");
+        //     para.className = "loop" ; 
+        //     para.style.fontSize = "24px";
+        //     para.style.color = "brown" ;
+        //     para.style.paddingLeft = "100px";
+        //      for(let j = i ;j <= i ; j++){
+        //         para.textContent = arrName[j];
+                
+        //      }
+        //      document.body.appendChild(para);
+        // }
+
+
+        function maths() {
+            let value = prompt("Slove this to get value : 50-30 = ?");
+            let btn = document.getElementById("btn");
+            if(value == 20){
+                document.getElementById("js").innerText = "Succes Redirective" ; 
+                btn.style.color = "white";
+                btn.style.backgroundColor = "green" ;
+                btn.style.borderRadius = "12px"
+                btn.style.border= "0px";
+                btn.style.paddingInline = "24px";
+                btn.style.paddingBlock = "12px";
+            }else{
+                document.getElementById("js").innerText = "Failed Try Again" ; 
+                btn.style.color = "white";
+                btn.style.backgroundColor = "red" ;
+                btn.style.borderRadius = "12px"
+                btn.style.border= "0px";
+                btn.style.paddingInline = "24px";
+                btn.style.paddingBlock = "12px";
+            }
+            
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+            .imp-label::before{
+                content: "I'm the Boss";
+                color: whitesmoke;
+                display: block;
+                width: 200px;
+                height: 20px;
+                border-radius: 100px;
+                background-color:#545454;
+                text-align: center;
+            }
+
+            .Email:hover{
+                border:3px solid  #820808;
+                background-color: #5158e9;
+                padding: 7px;
+                color: azure;
+            }
+            .btn-primary{
+                background-color: #2100da;
+                color: aquamarine;
+                border: aquamarine;
+                border-radius: 2px;
+                font-size: large;
+                padding: 5px;
+            }
+            .btn-primary:hover{
+                background-color: aquamarine;
+                color: #2100da;
+                border: #2100da;
+                /* All of properties gonna fall-through in this section this is called fall_through */
+            }
+
+            /* li:nth-child(even){
+                background-color:#545454;
+                border: 2px solid skyblue;
+                border-radius: 20px;
+                color: aliceblue;
+                text-align: center;
+                text-decoration:dashed;     
+            } */
+
+            li{
+                list-style-type:georgian;
+            }
+           div.container{
+            background-color: #64d0e8;
+            border:3px solid #0d014f;
+            margin: 50px;
+            padding: 30px;
+            text-align: center;
+            text-decoration:dashed;
+           }
+            
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="tiki">
+
+            <label  class="imp-label" for="Name"> <i>Name</i></label> 
+            <input type="text" placeholder="Enter your Name"> <br>
+            <br>
+            <br>
+
+            <label class="Email" for="Email">Email</label>
+            <input type="email" placeholder="Enter your Email">
+
+             <br>
+             <br>
+                <!-- <input type="button" value="Submit"> -->
+            <button class="btn-primary" data-tooltip="Tooltip" type="submit">Submit</button>
+
+            <ul>
+                <li>Sneha</li>
+                <li>Shubhu</li>
+                <li>Shubham</li>
+                <li>Tanmaya</li>
+                <li>Akash</li>
+                <li>Cheeku</li>
+                <li>Abhishek</li>
+                <li>Aman</li>
+                <li>Arru</li>
+                <li>Garra</li>
+                <li>Naruto</li>
+                <li>Sasuke</li>
+            </ul>
+        </form>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</body>
+</html>
