@@ -1,0 +1,93 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    max-width: 1440px;
+    margin: 70px;
+    margin-left:20rem;
+    /* padding: 50px; */
+}
+nav.navbar-container{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-left: 69px; */
+ 
+    /* padding: 60px 70px ; */
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+ul li{
+    padding-left: 60px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li:not(:first-child){
+    color: grey;
+}
+
+ul li:hover{
+    color: hwb(276 2% 29%);
+}
+   div.button-group{
+    display: flex;   
+   }
+  button.navbar-button{
+    /* display: flex; */
+    /* align-self: self-start; */
+   
+    margin-left: 30em;
+    margin-right:5em ;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 24px;
+    background-color: #9900ff;
+    color: azure;
+    /* align-self: self-end; */
+    justify-content: flex-start;
+}
+
+/* Main Section */
+div.banner-container {
+    display: flex;
+}
+div.leftmain{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 25%;
+}
+h1 span{
+    color: rgb(97, 4, 158);
+}
+
+p.description{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    margin: 15px;
+}
+
+div>button {
+    border: none;
+    border-radius: 7px;
+    padding: 18px 30px;
+    background-color: #9900ff;
+    color: azure;
+    width: 40%;
+    margin: 40px 50px;
+    /* justify-content: center; */
+}

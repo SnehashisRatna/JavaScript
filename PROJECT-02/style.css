@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* background-image: url(./iamges/stethoscope.png);
+    background-repeat: no-repeat; */
+}
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 5%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: x-large;
+
+}
+nav ul li:first-child{
+    color: #20c020;
+}
+      nav ul li:not(:first-child){
+        color: orange;
+        font-weight: 400;
+      }
+
+      /* Main Section */
+
+main   {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+main section{
+    width: 50%;
+}
+ 
+.leftSection  {
+    margin-left: 5%;
+    position: relative;
+    /* bottom: 10vh; */
+}
+
+.topAngle{
+    width: 25px;
+}
+h1{
+    font-size: 70px;
+
+}
+.leftSection p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin: 20px 0;
+    color: #808080;
+
+}
+.bottomAngle{
+    width: 25px;
+    position:absolute;
+    right: 25px;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top :-60px;
+    right: -25px;
+    z-index: -1;
+}
+
+.mouse{
+    position: absolute;
+    bottom: -50px;
+
+    right: -25px;
+    width: 30px;
+
+}
+
+.leftSection button{
+    border: none;
+    color: whitesmoke;
+    background-color: hsl(134, 71%, 49%);
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin-top:40px ;
+}
+
+/* Right Section */
+.greenBox , .yellowBox{
+    position: absolute;
+    /* z-index: -1; */
+    right: 0;
+}
+.greenBox{
+    width: 35%;
+    bottom: 50px;
+}
+.yellowBox{
+    width: 30%;
+    bottom: 40px;
+}
+.Doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
